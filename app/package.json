@@ -1,0 +1,17 @@
+{
+  "name": "gods-dice",
+  "productName": "God's dice",
+  "version": "0.0.1",
+  "description": "Dice roller inspired by 2ch-like Web BBS",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Talos",
+    "email": "talos208@gmail.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "CC BY",
+  "dependencies": {}
+}
